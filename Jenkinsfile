@@ -20,7 +20,7 @@ pipeline {
         
      stage('Deploy') {
             steps {
-                sh 'sudo docker run -itd --name nancy-container21211 -p 8083:8081 Nancy2209/star-agile-tar-agile-insurance_project:v1'
+                sh 'sudo docker run -itd --name my-container21211 -p 8083:8081 Nancy2209/star-agile-insurance_project:v1'
                   
                 }
             }
